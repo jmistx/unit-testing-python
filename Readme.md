@@ -17,7 +17,7 @@
 ```bash
 python3 -m venv .venv # если у вас OS X в вы собираетесь использовать VSCode, стандартное расширение ms-python.python не поддерживает встроенный интерпретатор
 source .venv/bin/activate
-cp assets/pip.conf .venv/pip.conf # на случай, если у вас по умолчанию стоит рабочий реестр пакетов
+cp .assets/pip.conf .venv/pip.conf # на случай, если у вас по умолчанию стоит рабочий реестр пакетов
 pip install -r requirements.txt
 ```
 
@@ -31,9 +31,11 @@ pip install -r requirements.txt
 
 После запуска тестов, окружение должно выглядеть так. Часть тестов должны быть красными, это нормально.
 
-![VSCode passed tests](images/vscode.png)
+![VSCode passed tests](.images/vscode.png)
 
 ### PyCharm Community Edition
+
+![PyCharm passed tests](.images/pycharm.png)
 
 ## Links
 
